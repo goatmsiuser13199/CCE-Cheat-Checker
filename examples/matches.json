@@ -1,0 +1,46 @@
+{
+  "scannedAt": "2026-11-11T21:30:00.000Z",
+  "dryRun": false,
+  "excludeBots": true,
+  "selfUserId": "100000000000000000",
+  "guildStatuses": [
+    {
+      "guildId": "111111111111111111",
+      "guildName": "Apex Cheats Example",
+      "tag": "cheat",
+      "recoveredCount": 842,
+      "approximateMemberCount": 1200,
+      "incomplete": true,
+      "lastError": "list members HTTP 403",
+      "sources": ["cache", "member-search(38q)"]
+    },
+    {
+      "guildId": "222222222222222222",
+      "guildName": "CCE UCX Example",
+      "tag": "scrim",
+      "recoveredCount": 310,
+      "approximateMemberCount": 320,
+      "incomplete": true,
+      "lastError": null,
+      "sources": ["cache", "member-search(38q)"]
+    }
+  ],
+  "matches": [
+    {
+      "discordId": "333333333333333333",
+      "username": "examplecheater",
+      "globalName": "Example Cheater",
+      "discriminator": "0",
+      "cheatGuilds": [
+        { "id": "111111111111111111", "name": "Apex Cheats Example" }
+      ],
+      "scrimGuilds": [
+        { "id": "222222222222222222", "name": "CCE UCX Example" }
+      ]
+    }
+  ],
+  "logs": [
+    "[2026-11-11T21:30:00.000Z] Tagged guilds: 2 (excludeBots=true, dryRun=false)",
+    "[2026-11-11T21:30:05.000Z] Match count: 1"
+  ]
+}

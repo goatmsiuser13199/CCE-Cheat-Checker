@@ -1,0 +1,9 @@
+.cursor/
+.env
+.env.*
+!.env.keep
+
+*.sql
+*_backup*
+last check.csv
+**/supabase-backup*/
